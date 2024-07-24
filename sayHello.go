@@ -1,7 +1,7 @@
 package gosayhello
 
-func SayHello() string {
-	return "I said hello."
+func SayHello(name string) string {
+	return "Hello, " + name
 }
 
 func AndreSayHello() string {
